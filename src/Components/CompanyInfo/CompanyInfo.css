@@ -1,0 +1,57 @@
+.company {
+  margin: 50px 0px;
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+.company__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 350px;
+  padding: 0px 20px;
+}
+
+.company__info {
+  padding: 0;
+  list-style: none;
+  font-size: 20px;
+}
+
+.info {
+  margin: 20px 0px;
+}
+
+.company__visit {
+  font-size: 60px;
+}
+
+.company__address {
+  font-size: 24px;
+}
+
+.company__hours-title {
+  font-weight: 700;
+}
+
+.company__phone {
+  font-weight: 700;
+}
+
+.company__phone-number {
+  text-decoration: none;
+  color: #000;
+}
+
+@media screen and (max-width: 800px) {
+  .company {
+    flex-direction: column;
+  }
+
+  .company__wrapper {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+  }
+}

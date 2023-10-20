@@ -1,0 +1,25 @@
+.random__apply {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin: 20px 0px;
+}
+
+.random__apply-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 350px;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.random__apply-btn:hover {
+  font-size: 21px;
+  background-color: #660000;
+  cursor: pointer;
+}
